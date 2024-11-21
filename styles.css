@@ -326,6 +326,20 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    position: relative;
+}
+
+#footer-section::before{
+    content: '';
+    position: absolute;
+    height: 500px;
+    width: 90%;
+    /* background-color: blue; */
+    background-image: url(images/before-footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 450px;
+    margin: 0px 100px;
 
 }
 
