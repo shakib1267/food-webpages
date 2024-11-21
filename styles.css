@@ -43,10 +43,12 @@
 
 /* home page image style stert */
 .first-image-style {
-    height: 400px;
-    width: 900px;
+    height: 350px;
+    width: 850px;
     rotate: 10deg;
     border-radius: 10px;
+    box-shadow: 10px 5px 25px 17px rgb(186, 185, 185);
+    margin-top: 40px;
 
 }
 
