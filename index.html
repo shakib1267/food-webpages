@@ -7,82 +7,108 @@
     <title>Food village </title>
 
     <script src="https://cdn.tailwindcss.com"></script>
-
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/96b111c22a.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-    <nav class="flex justify-around  items-center  sticky inset-0 bg-red-900">
+    <nav class="flex justify-around  items-center inset-0 bg-red-300">
         <div>
-            <a href="#"><img class="h-24" src="images/food-logo.png" alt=""></a>
+            <a href="#"><img class="h-16" src="images/berger-logo.png" alt=""></a>
         </div>
-        <div>
-            <a class="mx-8 text-white hover:text-purple-300" href="#">HOME</a>
-            <a class="mx-8 text-white hover:text-purple-400" href="#">CONTACT</a>
-            <a class="mx-8 text-white hover:text-pink-500" href="#">BLOG,S</a>
-            <a class="mx-8 text-white hover:text-pink-500" href="#">ORDER-PAGE</a>
+        <div class="home-pages-nav">
+            <a href="#">HOME</a>
+            <a href="#">CONTACT</a>
+            <a href="#">BLOG,S</a>
+            <a href="#">ORDER-PAGE</a>
         </div>
-        <div id="animation-style">
+        <button class="px-7 py-3 border rounded-lg bg-red-400 hover:bg-red-600 hover:text-white border-none shadow-xl font-bold text-sm">LogIn <i
+                class="fa-solid fa-right-to-bracket"></i></button>
+        <!-- <div id="animation-style">
             <button id="button-style">LOG IN</button>
-        </div>
+        </div> -->
     </nav>
 
-    <section style="margin-left: 150px ; display: flex;">
-        <div>
-            <h1 class="text-style">Creative <span class="span-style"> Restaurants </span>& <br><span class="span-style">
-                    Food </span>Multi-purpose <BR>Template</BR> </h1>
+    <section style=" margin: 80px 150px; display: flex;">
+        <div style="width: 900px;">
+            <h1 class="check-out-style">Creative</h1>
+            <nav class="text-style">
+                <div class="span-style">Restaurants &</div>
+                <div>Foods Multi-purpose</div>
+                <div>Template</div>
+            </nav>
             <!-- button style stert -->
-            <div id="animation-style">
-                <button id="button-style">Order Now</button>
-            </div>
+            <span>
+                <div class="animation-styles">
+                    <button id="button-style">Order Now</button>
+                </div>
+            </span>
             <!-- button style finished -->
 
         </div>
         <div>
-            <img style="margin-top: 100px; height: 400px; width:900px; position: relative;right: 200px; z-index: -1;"
-                src="images/bg-food.png" alt="">
+            <img class="first-image-style" src="images/bg-food.png" alt="">
         </div>
 
     </section>
 
     <div class="tomatto-style"><img style="height:350px;width:350px;" src="images/tomatoshadow-png.png" alt=""></div>
-    <section style="display: flex; text-align: center; justify-content: center;">
+    <section style="display: flex; text-align: center; justify-content: center;position: relative;bottom:250px;
+    z-index: -1;">
         <div>
-            <h1 class="text-style">Check out our <br>All <span class="span-style">Ready Demos </span></h1><br>
-            <p style="width: 500px;">We created many home pages with a special taste and delicious thought, in order to
-                choose one of them and execute it in just a few minutes. </p>
+            <p class="check-out-style">Check out our</p>
+            <h1 class="text-style">All <span class="span-style">Ready Demos </span></h1><br>
+            <p style="width: 500px;">
+                We created many home pages with a special taste and delicious thought, in order to
+                choose one of them and execute it in just a few minutes.
+            </p>
     </section>
+    <div class="cartoon-style">
+        <img src="images/cartton-png.png" alt="">
+    </div>
 
 
     <!-- card deaign stert -->
     <section id="section-parent">
-        <div class="flex flex-col items-center"><img class="w-96 hover:opacity-75 " src="images/image=1.png" alt="">
-            <p class="text-black text-lg hover:text-red-500">Default</p>
+        <div class="flex flex-col items-center shadow-xl shadow-slate-500"><img class="w-96 hover:opacity-75 "
+                src="images/image=1.png" alt="">
+            <p class="text-black font-bold text-lg hover:text-red-500">Default</p>
         </div>
-        <div class="flex flex-col items-center"><img class="w-96 hover:opacity-75" src="images/image-2.png" alt="">
-            <p class="text-black text-lg hover:text-red-500">Classic</p>
+        <div class="flex flex-col items-center shadow-xl shadow-slate-500"><img class="w-96 hover:opacity-75"
+                src="images/image-2.png" alt="">
+            <p class="text-black font-bold text-lg hover:text-red-500">Classic</p>
         </div>
-        <div class="flex flex-col items-center"><img class="w-96 hover:opacity-75" src="images/image-3.png" alt="">
-            <p class="text-black text-lg hover:text-red-500">American BBQ</p>
+        <div class="flex flex-col items-center shadow-xl shadow-slate-500"><img class="w-96 hover:opacity-75"
+                src="images/image-3.png" alt="">
+            <p class="text-black font-bold text-lg hover:text-red-500">American BBQ</p>
         </div>
-        <div class="flex flex-col items-center"><img class="w-96 hover:opacity-75" src="images/image-4.png" alt="">
-            <p class="text-black text-lg hover:text-red-500">Indiyan chicke</p>
+        <div class="flex flex-col items-center shadow-xl shadow-slate-500"><img class="w-96 hover:opacity-75"
+                src="images/image-4.png" alt="">
+            <p class="text-black font-bold text-lg hover:text-red-500">Indiyan chicke</p>
         </div>
-        <div class="flex flex-col items-center"><img class="w-96 hover:opacity-75" src="images/image-5.png" alt="">
-            <p class="text-black text-lg hover:text-red-500">Default</p>
+        <div class="flex flex-col items-center shadow-xl shadow-slate-500"><img class="w-96 hover:opacity-75"
+                src="images/image-5.png" alt="">
+            <p class="text-black font-bold text-lg hover:text-red-500">Default</p>
         </div>
-        <div class="flex flex-col items-center"><img class="w-96 hover:opacity-75" src="images/image-6.png" alt="">
-            <p class="text-black text-lg hover:text-red-500">Classic</p>
+        <div class="flex flex-col items-center shadow-xl shadow-slate-500"><img class="w-96 hover:opacity-75"
+                src="images/image-6.png" alt="">
+            <p class="text-black font-bold text-lg hover:text-red-500">Classic</p>
         </div>
-        <div class="flex flex-col items-center"><img class="w-96 hover:opacity-75" src="images/image-7.png" alt="">
-            <p class="text-black text-lg hover:text-red-500">American BBQ</p>
+        <div class="flex flex-col items-center shadow-xl shadow-slate-500"><img class="w-96 hover:opacity-75"
+                src="images/image-7.png" alt="">
+            <p class="text-black font-bold text-lg hover:text-red-500">American BBQ</p>
         </div>
-        <div class="flex flex-col items-center"><img class="w-96 hover:opacity-75" src="images/image-7.png" alt="">
-            <p class="text-black text-lg hover:text-red-500">Indiyan chicke</p>
+        <div class="flex flex-col items-center shadow-xl shadow-slate-500"><img class="w-96 hover:opacity-75"
+                src="images/image-7.png" alt="">
+            <p class="text-black font-bold text-lg hover:text-red-500">Indiyan chicke</p>
         </div>
-        <div class="flex flex-col items-center"><img class="w-96 hover:opacity-75" src="images/image-7.png" alt="">
-            <p class="text-black text-lg hover:text-red-500">Indiyan chicke</p>
+        <div class="flex flex-col items-center shadow-xl shadow-slate-500"><img class="w-96 hover:opacity-75"
+                src="images/image-7.png" alt="">
+            <p class="text-black font-bold text-lg hover:text-red-500">Indiyan chicke</p>
         </div>
     </section>
     <!-- card deaign finished -->
@@ -90,7 +116,8 @@
 
 
 
-    <section style="background-color: black; height: 650px; margin-top: 80px; padding: 60px 5px; margin-bottom: 60px;">
+    <section
+        style="background-color: black; height: 650px; margin-top: 80px; padding: 60px 5px; margin-bottom: 60px;position:relative;bottom: 350px;">
 
         <h1 style="font-size: x-large; font-weight: bold; padding-left: 700px; color: aliceblue;">Extra rich <br>of
             <span style="color: brown; font-size: x-large; font-weight: bold;">options</span>
@@ -98,21 +125,22 @@
         <nav style="display: flex; flex-wrap: wrap; margin: 20px 90px;
     gap: 85px;">
             <div class="flex flex-col items-center"><img class="w-96 hover:opacity-75" src="images/image-7.png" alt="">
-                <p class="text-black text-lg text-white hover:text-red-500">American BBQ</p>
+                <p class="text-black font-bold text-lg text-white hover:text-red-500">American BBQ</p>
             </div>
             <div class="flex flex-col items-center"><img class="w-96 hover:opacity-75" src="images/image-7.png" alt="">
-                <p class="text-black text-white text-lg hover:text-red-500">Indiyan chicke</p>
+                <p class="text-black font-bold text-white text-lg hover:text-red-500">Indiyan chicke</p>
             </div>
             <div class="flex flex-col items-center"><img class="w-96 hover:opacity-75" src="images/image-7.png" alt="">
-                <p class="text-black text-white text-lg hover:text-red-500">Indiyan chicke</p>
+                <p class="text-black font-bold text-white text-lg  hover:text-red-500">Indiyan chicke</p>
             </div>
     </section>
 
 
     <section class="section-design">
         <div>
-            <h1 style=" font-size: 70px; font-weight: bold;">Multiple creative <br><span
-                    style="color: red;">Recipe</span> layoyts</h1><br>
+            <p class="check-out-style">Multiple creative</p>
+            <div class="text-style">Recipe <span class="span-style">Layoyts</span></div>
+            <br>
             <p style="width: 600px;">Certainly, The design of the menu is one of the most important elements in the
                 field of foods, so we designed many of the menu in order to choose one of them and be very satisfied
                 with the choice .. Dont forget that the choice is before the way</p>
@@ -122,18 +150,20 @@
         <img src="images/tomatoshadow-png.png" alt="">
     </div>
 
-    <section style="display: flex; padding:50px 130px; gap:100px;">
+    <section style="display: flex; padding:50px 130px; gap:100px;position: relative;bottom: 600px;">
         <div>
             <h1 style="font-size: 60px;font-weight: bold;">Elegant Functional <br><span style="color: red;">Reservation
                 </span> Pages</h1>
             <p style="width: 600px;">Reservation pages are one of the most important elements of the template and we
                 studied with high accuracy through a search of similar restaurant websites in order to implement our
                 reservations and many pages were created to match your.</p>
-                <nav style="position: relative; top: 20px;">
-                <span><a style="background-color: black; color: aliceblue;padding: 10px 25px;" href="#"> Reservetion page-1</a></span>
-                <span><a style="background-color: black; color: aliceblue;padding: 10px 25px;" href="#">Reservetion page-2</a></span><br>
-               
-                </nav>
+            <nav style="position: relative; top: 20px;">
+                <span><a style="background-color: black; color: aliceblue;padding: 10px 25px;" href="#"> Reservetion
+                        page-1</a></span>
+                <span><a style="background-color: black; color: aliceblue;padding: 10px 25px;" href="#">Reservetion
+                        page-2</a></span><br>
+
+            </nav>
 
         </div>
         <div>
@@ -144,44 +174,47 @@
         </div>
     </section>
     <div class="baries-animation"><img src="images/black-baries.png" alt=""></div>
+
+
     <!-- list inline style stert  -->
-    <section style="display: flex; gap: 40px; padding: 30px;position: relative;bottom: 170px; z-index: -2;">
-        <div style="background-color:rgb(246, 251, 251);box-shadow: 4px 6px 18px 8px rgb(189, 188, 188);padding:15px;"><img src="images/list-img5.png" alt="">
+    <section style="display: flex; gap: 40px; padding: 30px;position: relative;bottom: 750px; z-index: -2;">
+        <div style="background-color:rgb(246, 251, 251);box-shadow: 4px 6px 18px 8px rgb(189, 188, 188);padding:15px;">
+            <img src="images/list-img5.png" alt="">
             <h1>Vertical & Horizenatl Header</h1>
             <p>The taste varies from person to person. I decided to design two types of headers both horizontally and
                 vertically</p>
         </div>
-        <div style="background-color:rgb(246, 251, 251);box-shadow: 4px 6px 18px 8px rgb(189, 188, 188);padding:15px;"><img src="images/list-img4.png" alt="">
+        <div style="background-color:rgb(246, 251, 251);box-shadow: 4px 6px 18px 8px rgb(189, 188, 188);padding:15px;">
+            <img src="images/list-img4.png" alt="">
             <h1>Vairant Headers & Footers</h1>
             <p>Sometimes you want a variety of footer and header. When your mood is changed one day, There are many of
                 footers & headers you can change it easily</p>
         </div>
-        <div style="background-color:rgb(246, 251, 251);box-shadow: 4px 6px 18px 8px rgb(189, 188, 188);padding:15px;"><img src="images/list-img3.png" alt="">
+        <div style="background-color:rgb(246, 251, 251);box-shadow: 4px 6px 18px 8px rgb(189, 188, 188);padding:15px;">
+            <img src="images/list-img3.png" alt="">
             <h1>Multiple Blog Layouts</h1>
             <p>When the business grows, You want to create a blog for marketing and advertising and attracting a lot of
                 audiences around the world</p>
         </div>
-        <div style="background-color:rgb(246, 251, 251);box-shadow: 4px 6px 18px 8px rgb(189, 188, 188);padding:15px;"><img src="images/list-img2.png" alt="">
+        <div style="background-color:rgb(246, 251, 251);box-shadow: 4px 6px 18px 8px rgb(189, 188, 188);padding:15px;">
+            <img src="images/list-img2.png" alt="">
             <h1>Mega Carousel Menu</h1>
             <p>Eye Atracting & defining the goal easily is one of the important goals that the audience wants to reach
                 them easily, We designed this feature on the menu.</p>
         </div>
-        <div style="background-color:rgb(246, 251, 251);box-shadow: 4px 6px 18px 8px rgb(189, 188, 188);padding:15px;"><img src="images/list-img1.png" alt="">
-            <h1>Events calender</h1>
-            <p>Of course, The restaurant owners wants the events calendar, So it appears on every website because it is
-                one of the main feature of restaurants on all occasions.</p>
-        </div>
+        
     </section>
     <!-- list inline end  -->
 
-    <div style="display: flex; justify-content: center;align-items: center;text-align: center;">
+    <div style="display: flex; justify-content: center;align-items: center;text-align: center; position: relative;bottom: 700px;">
         <span>
-        <h1 class="text-style">Core <span class="span-style"> Features</span></h1>
-        <p style="width:500px;">Deliciousa comes with alot of features. We given to you quick list of main features. Check the pages to see components in action</p>
-    </span>
+            <h1 class="text-style">Core <span class="span-style"> Features</span></h1>
+            <p style="width:500px;">Deliciousa comes with alot of features. We given to you quick list of main features.
+                Check the pages to see components in action</p>
+        </span>
     </div>
 
-    <section >
+    <section>
         <div style="display:flex; margin: 30px 200px; gap: 50px;">
             <nav class="div-child-style"><img src="images/image-item-1.png" alt=""> Unique Design</nav>
             <nav class="div-child-style"><img src="images/image-item2.png" alt=""> HTML5</nav>
@@ -208,14 +241,14 @@
         </div>
     </section>
 
-   <section id="footer-section">
-    <div>
-        <h1 style="font-size: 60px; font-weight: bold;"><span style="font-size: 60px;color: red;">Deliciousa
-        </span>  is your gateway to <br> glorious online food sales
-    </h1><br><br>
-    <button class="style-button">Percise now</button>
-    </div>
-   </section>
+    <section id="footer-section">
+        <div>
+            <h1 style="font-size: 60px; font-weight: bold;"><span style="font-size: 60px;color: red;">Deliciousa
+                </span> is your gateway to <br> glorious online food sales
+            </h1><br><br>
+            <button class="style-button">Percise now</button>
+        </div>
+    </section>
 
 </body>
 

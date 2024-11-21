@@ -3,7 +3,85 @@
     height: 600px;
 
     /* <!-- button style stert --> */
+
+
+
 }
+
+/* home page animation nav ber section option stert */
+.home-pages-nav {
+    display: flex;
+    gap: 40px;
+}
+
+.home-pages-nav a {
+    text-decoration: none;
+    color: aliceblue;
+    position: relative;
+    font-weight: 600;
+}
+
+.home-pages-nav a::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+    height: 3px;
+    width: 0;
+    background-image: linear-gradient(to right, green, red);
+    transition: 0.5s;
+}
+
+.home-pages-nav a:hover::after {
+    width: 100%;
+}
+
+
+
+
+/* home page animation nav ber section option end */
+
+/* home page image style stert */
+.first-image-style {
+    height: 400px;
+    width: 900px;
+    rotate: 10deg;
+    border-radius: 10px;
+
+}
+
+.first-image-style:hover {
+    rotate: 0deg;
+    transition: 0.5s;
+
+
+
+
+}
+
+/* cartoon style stert */
+
+.cartoon-style {
+    position: relative;
+    bottom: 500px;
+
+}
+
+.cartoon-style img {
+    height: 400px;
+    padding-left: 60px;
+    z-index: -2;
+}
+
+.cartoon-style img:hover {
+    height: 450px;
+    transition: 1s;
+
+}
+
+/* .cartoon-style{cartoon style end */
+
+/* home page image style end */
 
 #animation-style {
     height: 50px;
@@ -16,8 +94,9 @@
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-    z-index: -1;
+    /* z-index: -1; */
 }
+
 
 #animation-style::before {
     content: '';
@@ -41,9 +120,65 @@
 #animation-style::after {
     content: '';
     position: absolute;
-    background-color: rgb(74, 2, 74);
+    background-color: rgb(233, 32, 32);
     inset: 3px;
     border-radius: 5px;
+}
+
+#animation-style:hover::after {
+    background-image: linear-gradient(to right, red, white, green, yellow);
+    transition: 0.5s;
+}
+
+#button-style {
+    font-weight: bold;
+    z-index: 2;
+    color: aliceblue;
+}
+
+.animation-styles {
+    height: 50px;
+    width: 150px;
+    background-color: #161515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+
+
+.animation-styles::before {
+    content: '';
+    position: absolute;
+    height: 110%;
+    width: 200px;
+    background-image: linear-gradient(to right, red, yellow);
+    animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.animation-styles::after {
+    content: '';
+    position: absolute;
+    background-color: rgb(233, 32, 32);
+    inset: 3px;
+    border-radius: 5px;
+}
+
+.animation-styles:hover::after {
+    background-color: aquamarine;
 
 }
 
@@ -55,12 +190,18 @@
 
 /* <!-- button style end --> */
 
+.check-out-style {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+}
+
 .text-style {
     color: black;
     font-family: sans-serif;
-    font-size: 60px;
+    font-size: 45px;
     font-weight: bold;
-    margin-top: 100px;
 }
 
 .span-style {
@@ -72,13 +213,29 @@
     margin: 20px 90px;
     gap: 85px;
     flex-wrap: wrap;
+    position: relative;
+    bottom: 400px;
+
 }
 
 .tomatto-style {
     padding-left: 1100px;
     position: relative;
-    top: 350px;
+    bottom: 0px;
     z-index: -1;
+}
+
+.tomatto-style img {
+    position: relative;
+    left: 0px;
+    animation: tommato-left 4s infinite;
+}
+
+@keyframes tommato-left {
+    50% {
+        left: -75px;
+    }
+
 }
 
 .section-design {
@@ -86,51 +243,65 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
+    bottom: 350px;
 }
 
+
+
+#animation-styles{
+    position: relative;
+    bottom: 500px;
+}
 #animation-styles img {
     height: 350px;
     width: 350px;
     position: relative;
     top: 0px;
-    animation: tomatto-styles 5s  infinite;
+    animation: tomatto-styles 5s infinite;
     z-index: -1;
+   
 }
+
 @keyframes tomatto-styles {
-    50%{
+    50% {
         top: -85px;
     }
-    100%{
+
+    100% {
         bottom: -105px;
     }
-    
+
 }
 
 
-.baries-animation{
+.baries-animation {
     padding-left: 1100px;
-   position: relative;
-   bottom: 50px;
-}  
+    position: relative;
+    bottom: 600px;
+}
 
-.baries-animation img{
-    height:350px;
+.baries-animation img {
+    height: 350px;
     width: 350px;
     position: relative;
     top: 0px;
-   animation: baries-style 5s infinite;
-   z-index: -1;
+    animation: baries-style 5s infinite;
+    z-index: -1;
 }
+
 @keyframes baries-style {
-    50%{
+    50% {
         top: -85px;
     }
-    100%{
+
+    100% {
         bottom: -105px;
     }
-    
+
 }
-.div-child-style{
+
+.div-child-style {
     border: 1px solid silver;
     height: 250px;
     width: 250px;
@@ -139,27 +310,33 @@
     align-items: center;
     flex-direction: column;
 }
-.div-child-style:hover{
+
+.div-child-style:hover {
     box-shadow: 3px 4px 18px 4px silver;
 }
 
 
-#footer-section{
-    display: flex; 
+#footer-section {
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 400px;
     background-image: url(images/footer-img.avif);
-   background-repeat: no-repeat;
-   background-size: cover;
-   color: white;
-   
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
 }
-.style-button{
-    border: 1px solid white;color: white;padding: 10px 40px;border-radius: 35px;
+
+.style-button {
+    border: 1px solid white;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 35px;
 }
-.style-button:hover{
+
+.style-button:hover {
     background-color: rgb(252, 251, 251);
     color: red;
     border: 1px solid red;
